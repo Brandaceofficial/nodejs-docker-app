@@ -1,14 +1,13 @@
 # nodejs-docker-app
-![Docker Build](Screenshots/Docker Container Running.png)
 
 
 ## 1. Docker Build
 
 The Docker image was built using:
 
-```bash
 docker build -t brandace/nodejs-docker-app:1.0 .
 ![Docker Build](Screenshots/Docker Image Build 2.png)
+
 ![Docker Build](Screenshots/Docker Image Build.png)
 
 
@@ -22,7 +21,6 @@ The Docker image was successfully uploaded to Docker Hub.
 
 The container was started and verified using:
 
-```bash
 docker ps
 ![Docker Build](Screenshots/Docker Image Hub.png)
 
@@ -35,7 +33,6 @@ In VS Code:
 
 Then, because your project is connected to GitHub, run:
 
-```bash
 git add README.md screenshots/
 ![Docker Build](Screenshots/Live Application.png)
 
